@@ -1,10 +1,10 @@
-package springboot.study1;
+package dev.highright96.MemberManagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Study1ApplicationTests {
+class MemberManagementApplicationTests {
 
 	@Test
 	void contextLoads() {
