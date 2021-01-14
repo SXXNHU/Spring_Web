@@ -2,7 +2,7 @@ package dev.highright96.MemberManagement.service;
 
 import dev.highright96.MemberManagement.domain.Member;
 import dev.highright96.MemberManagement.repository.MemberRepository;
-import dev.highright96.MemberManagement.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 import java.util.Optional;
