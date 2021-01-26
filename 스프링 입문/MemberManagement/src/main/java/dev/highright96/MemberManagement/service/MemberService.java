@@ -3,10 +3,13 @@ package dev.highright96.MemberManagement.service;
 import dev.highright96.MemberManagement.domain.Member;
 import dev.highright96.MemberManagement.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
+//jpa 는 데이터 등록이나 변경이 있을 때 무조건 transactional 어노테이션이 필요하다.
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;
