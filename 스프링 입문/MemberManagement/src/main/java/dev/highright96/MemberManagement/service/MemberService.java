@@ -18,15 +18,13 @@ public class MemberService {
         this.memberRepository = memberRepository;
     }
 
-    /**
-     * 회원 가입
-     */
+    //회원 가입
     public Long join(Member member){
-        //중복 회원 확인
-        validateDuplicateMember(member);
+            //중복 회원 확인
+            validateDuplicateMember(member);
 
-        memberRepository.save(member);
-        return member.getId();
+            memberRepository.save(member);
+            return member.getId();
     }
 
     private void validateDuplicateMember(Member member) {

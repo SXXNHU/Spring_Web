@@ -1,7 +1,6 @@
 package dev.highright96.MemberManagement.repository;
 
 import dev.highright96.MemberManagement.domain.Member;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
@@ -19,8 +18,6 @@ public class JdbcTemplateMemberRepository implements MemberRepository{
 
     private final JdbcTemplate jdbcTemplate;
 
-//  생성자로 의존성 주입 시 생성자가 하나면 @Autowired 생략 가능
-//  DataSource 는 스프링이 제공한다.
     public JdbcTemplateMemberRepository(DataSource dataSource) {
         jdbcTemplate = new JdbcTemplate(dataSource);
     }

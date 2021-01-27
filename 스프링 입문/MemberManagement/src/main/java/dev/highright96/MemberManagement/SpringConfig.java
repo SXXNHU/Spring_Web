@@ -20,7 +20,7 @@ public class SpringConfig {
     */
 
     /*
-    JDBC 템플릿에서 사용
+    JPA 에서 사용
     private final EntityManager em;
 
     @Autowired
