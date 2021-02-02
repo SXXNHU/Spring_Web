@@ -1,6 +1,6 @@
-# 💡 스프링 입문
+# 스프링 입문
 
-😃 김영한님의 [인프런 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)을 들으며 정리한 글입니다.
+😃 김영한님의 [인프런 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술](https://www.inflearn.com)을 들으며 정리한 글입니다.
 
 * [프로젝트 생성](https://github.com/highright96/spring-study/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/1.%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.md)
 * [스프링 웹 개발 기초](https://github.com/highright96/spring-study/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/2.%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9B%B9%20%EA%B0%9C%EB%B0%9C%20%EA%B8%B0%EC%B4%88.md)
@@ -13,3 +13,11 @@
 * [JPA](https://github.com/highright96/spring-study/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/9.%20JPA.md)
 * [스프링 데이터 JPA](https://github.com/highright96/spring-study/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/10.%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20JPA.md)
 * [AOP](https://github.com/highright96/spring-study/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%9E%85%EB%AC%B8/11.%20AOP.md)
+
+<br/>
+
+# 스프링 핵심 원리
+
+😃 김영한님의 [인프런 스프링 핵심 원리](https://www.inflearn.com)을 들으며 정리한 글입니다.
+
+* [객체 지향 설계와 스프링](https://github.com/highright96/spring-study/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC%20%EC%9B%90%EB%A6%AC/1.%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%84%A4%EA%B3%84%EC%99%80%20%EC%8A%A4%ED%94%84%EB%A7%81.md)
