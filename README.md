@@ -21,3 +21,4 @@
 😃 김영한님의 [인프런 스프링 핵심 원리](https://www.inflearn.com)을 들으며 정리한 글입니다.
 
 * [객체 지향 설계와 스프링](https://github.com/highright96/spring-study/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC%20%EC%9B%90%EB%A6%AC/1.%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%84%A4%EA%B3%84%EC%99%80%20%EC%8A%A4%ED%94%84%EB%A7%81.md)
+* [스프링 핵심 원리 이해1 - 회원, 주문 예제 만들기](https://github.com/highright96/spring-study/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC%20%EC%9B%90%EB%A6%AC/2.%20%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC%20%EC%9B%90%EB%A6%AC%20%EC%9D%B4%ED%95%B41%20-%20%EC%98%88%EC%A0%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
