@@ -15,6 +15,11 @@ public class OrderServiceImpl implements OrderService{
         this.discountPolicy = discountPolicy;
     }
 
+    //테스트용
+   public MemberRepository getMemberRepository() {
+        return memberRepository;
+    }
+
     // SRP(단일 책임 원칙) 을 매우 잘지켜서 설계한 이유 => 주문을 생성하는 orderService 는 어떻게 member 를 찾는지, discountPolicy 가 무엇인지 모른다.
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) {
