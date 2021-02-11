@@ -3,13 +3,17 @@ package dev.highright96.core.order;
 import dev.highright96.core.discount.DiscountPolicy;
 import dev.highright96.core.member.Member;
 import dev.highright96.core.member.MemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OrderServiceImpl implements OrderService{
 
     private MemberRepository memberRepository;
     private DiscountPolicy discountPolicy;
 
     // 생성자 주입
+    @Autowired
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
